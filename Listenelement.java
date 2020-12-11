@@ -1,4 +1,4 @@
 public abstract class Listenelement{
-    abstract int ausgebenMitLänge();
+    abstract int ausgeben();
     abstract Listenelement einfügen(Knoten k);
 }
