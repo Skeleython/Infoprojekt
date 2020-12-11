@@ -10,4 +10,9 @@ public class Liste
     {
         
     }
+    
+    public void einfügen(String wort, String bedeutung)
+    {
+        erster.einfügen(wort, bedeutung);
+    }
 }
