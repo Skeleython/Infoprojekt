@@ -1,4 +1,4 @@
 public class Abschluss extends Listenelement{
-    int ausgeben(){return 0;}
+    void ausgeben(int i){System.out.println(i);}
     Listenelement einfügen(Knoten k){return k;}
 }
