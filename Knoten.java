@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 public class Knoten extends Listenelement
 {
@@ -28,6 +29,8 @@ public class Knoten extends Listenelement
 
 }
 =======
+=======
+>>>>>>> ebc210ac7a3e275e1428be6a465a4af7b1e37ef8
 public class Knoten extends Listenelement{
     
 }

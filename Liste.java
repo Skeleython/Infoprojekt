@@ -16,9 +16,13 @@ public class Liste
     
     /** Erstellt einen neuen Knoten mit dem Wort als Datenelement,
 <<<<<<< HEAD
+<<<<<<< HEAD
 
      *  der durch die Liste durchgegeben wird. 
     **/
+=======
+    der durch die Liste durchgegeben wird. **/
+>>>>>>> ebc210ac7a3e275e1428be6a465a4af7b1e37ef8
 =======
     der durch die Liste durchgegeben wird. **/
 >>>>>>> ebc210ac7a3e275e1428be6a465a4af7b1e37ef8

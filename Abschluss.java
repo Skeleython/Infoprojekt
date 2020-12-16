@@ -21,5 +21,9 @@ public class Abschluss extends Listenelement{
     Listenelement einfügen(Knoten k){
         return k;
     }
+<<<<<<< HEAD
+}
+>>>>>>> ebc210ac7a3e275e1428be6a465a4af7b1e37ef8
+=======
 }
 >>>>>>> ebc210ac7a3e275e1428be6a465a4af7b1e37ef8
