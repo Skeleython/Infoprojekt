@@ -16,12 +16,15 @@ public class Knoten extends Listenelement
     public void ausgeben(int i)
     {
         i++;
-        nächster.ausgeben(i);
         daten.ausgeben();
+        nächster.ausgeben(i);
     }
     public void nächsterSetzen(Listenelement nächster)
     {
         this.nächster = nächster;
     }
-
+    public void suchen(String suchbegriff){
+        if(daten.equals(suchbegriff)){daten.ausgeben();}
+        nächster.suchen(suchbegriff);
+    }
 }
