@@ -8,6 +8,7 @@ public class Abschluss extends Listenelement
     
     Listenelement einfügen(Knoten k)
     {
+        k.nächsterSetzen(this);
         return k;
     }
 }
