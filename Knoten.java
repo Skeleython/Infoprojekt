@@ -6,13 +6,22 @@ public class Knoten extends Listenelement
     {
         this.daten = daten;
     }
-    /** Setzt den 
-     **/
+    
+    /** Setzt seinen nächsten auf den Returnwert
+     *  der Methode ausgeben() im nächsten mit den
+     *  Eingabewerten k der übergeben wurde.
+     *  anschließend returned sich selber.
+     */
     public Listenelement einfügen(Knoten k)
     {
         nächster = nächster.einfügen(k);
         return this;
     }
+    
+    /** Erhöt den  Zähler i um Eins.
+     *  ruft im 
+     * 
+     */
     public void ausgeben(int i)
     {
         i++;
