@@ -23,4 +23,8 @@ public class Liste
         Knoten k=new Knoten(w);
         erster=erster.einfügen(k);
     }
+    
+    public void suchenUndAusgeben(String suchbegriff){
+        erster.suchenUndAusgeben(suchbegriff);
+    }
 }

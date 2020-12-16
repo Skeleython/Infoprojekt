@@ -2,5 +2,5 @@ public abstract class Listenelement{
     
     abstract void ausgeben(int i);
     abstract Listenelement einfügen(Knoten k);
-    abstract void suchen(String Suchbegriff);
+    abstract void suchenUndAusgeben(String Suchbegriff);
 }

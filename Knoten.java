@@ -32,8 +32,8 @@ public class Knoten extends Listenelement
     {
         this.nächster = nächster;
     }
-    public void suchen(String suchbegriff){
+    public void suchenUndAusgeben(String suchbegriff){
         if(daten.equals(suchbegriff)){daten.ausgeben();}
-        nächster.suchen(suchbegriff);
+        nächster.suchenUndAusgeben(suchbegriff);
     }
 }

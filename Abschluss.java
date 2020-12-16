@@ -12,5 +12,5 @@ public class Abschluss extends Listenelement
         return k;
     }
     
-    void suchen(String suchbegriff){}
+    void suchenUndAusgeben(String suchbegriff){}
 }
