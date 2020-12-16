@@ -1,4 +1,3 @@
-public class Knoten extends Listenelement
-{
+public class Knoten extends Listenelement{
     
 }

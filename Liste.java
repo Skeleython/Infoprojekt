@@ -11,8 +11,12 @@ public class Liste
         
     }
     
+    /*** Erstellt einen neuen Knoten mit dem Wort als Datenelement,
+    der durch die Liste durchgegeben wird. ***/
     public void einfügen(String wort, String bedeutung)
     {
-        erster.einfügen(wort, bedeutung);
+        Wort w=new Wort(wort,bedeutung);
+        Knoten k=new Knoten(w);
+        erster.einfügen(k);
     }
 }
