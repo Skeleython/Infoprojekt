@@ -11,11 +11,11 @@ public class Knoten extends Listenelement
         nächster = nächster.einfügen(k);
         return this;
     }
-    public int ausgeben(int i)
+    public void ausgeben(int i)
     {
         i++;
+        nächster.ausgeben(i);
         daten.ausgeben();
-        return nächster.ausgeben(i);
     }
     public void nächsterSetzen(Listenelement nächster)
     {
