@@ -1,19 +1,24 @@
 public class Knoten extends Listenelement
 {
-    Knoten nächster;
+    Listenelement nächster;
     Datenelement daten;
-    public Knoten(Datenelement daten, Knoten nächster)
+    public Knoten(Datenelement daten)
     {
         this.daten = daten;
+    }
+    public Listenelement einfügen(Knoten k)
+    {
+        nächster = nächster.einfügen(k);
+        return this;
+    }
+    public int ausgeben(int i)
+    {
+        i++;
+        daten.ausgeben();
+        return nächster.ausgeben(i);
+    }
+    public void nächsterSetzen(Listenelement nächster)
+    {
         this.nächster = nächster;
     }
-    public Listenelement einfügen(Knoten )
-    {
-        nächster.nächst
-    }
-    public void ausgeben(int i)
-    {
-        
-    }
-    
 }
