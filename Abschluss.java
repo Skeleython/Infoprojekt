@@ -1,4 +1,3 @@
-
 public class Abschluss extends Listenelement
 {
     public void ausgeben(int i)
@@ -11,3 +10,4 @@ public class Abschluss extends Listenelement
         return k;
     }
 }   
+

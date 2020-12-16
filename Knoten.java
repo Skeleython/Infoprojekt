@@ -1,3 +1,4 @@
+
 public class Knoten extends Listenelement
 {
     Listenelement nächster;
@@ -23,4 +24,5 @@ public class Knoten extends Listenelement
     {
         this.nächster = nächster;
     }
+
 }
