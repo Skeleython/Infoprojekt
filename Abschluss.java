@@ -1,6 +1,6 @@
+
 public class Abschluss extends Listenelement
 {
-
     public void ausgeben(int i)
     {
         System.out.println(i);

@@ -6,6 +6,8 @@ public class Knoten extends Listenelement
     {
         this.daten = daten;
     }
+    /** Setzt den 
+     **/
     public Listenelement einfügen(Knoten k)
     {
         nächster = nächster.einfügen(k);
