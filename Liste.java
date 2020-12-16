@@ -8,15 +8,15 @@ public class Liste
     
     public void ausgeben()
     {
-        
+        erster.ausgeben(0);
     }
     
-    /*** Erstellt einen neuen Knoten mit dem Wort als Datenelement,
-    der durch die Liste durchgegeben wird. ***/
+    /** Erstellt einen neuen Knoten mit dem Wort als Datenelement,
+    der durch die Liste durchgegeben wird. **/
     public void einfügen(String wort, String bedeutung)
     {
         Wort w=new Wort(wort,bedeutung);
         Knoten k=new Knoten(w);
-        erster.einfügen(k);
+        erster=erster.einfügen(k);
     }
 }
