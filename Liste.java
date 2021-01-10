@@ -6,7 +6,8 @@ public class Liste
         erster = new Abschluss();
     }
     
-    /** Ruft die methode einfügen im ersten Knoten/Abschluss auf 
+    /** 
+     * Ruft die methode einfügen im ersten Knoten/Abschluss auf 
      *  und übergibt als Startwert für den zähler 0. 
     **/
     public void ausgeben()
@@ -14,8 +15,9 @@ public class Liste
         erster.ausgeben(0);
     }
     
-    /** Erstellt einen neuen Knoten mit dem Wort als Datenelement,
-     *  der durch die Liste durchgegeben wird. 
+    /** 
+     * Erstellt einen neuen Knoten mit dem Wort als Datenelement,
+     * der hinten in die Liste eingefügt wird. 
     **/
     public void einfügen(String wort, String bedeutung)
     {
@@ -24,6 +26,9 @@ public class Liste
         erster=erster.einfügen(k);
     }
     
+    /**
+     * Sucht alle Wörter mit dem Suchbegriff und gibt diese auf die Konsole aus.
+     */
     public void suchenUndAusgeben(String suchbegriff){
         erster.suchenUndAusgeben(suchbegriff);
     }
